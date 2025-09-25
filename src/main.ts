@@ -93,7 +93,7 @@ class LemonadeStand {
         }
         this.cash -= totalCost;
         this.inventory[item] += quantity;
-        console.log(`> Bought ${quantity} ${item} for $${total_cost.toFixed(2)}.`);
+        console.log(`> Bought ${quantity} ${item} for $${totalCost.toFixed(2)}.`);
         return true;
     }
 
@@ -227,3 +227,4 @@ class Game {
 // --- ENTRY POINT: Start the game ---
 const game = new Game();
 game.start();
+
